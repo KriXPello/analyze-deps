@@ -1,0 +1,27 @@
+{
+  "name": "analyze-deps",
+  "version": "1.0.0",
+  "description": "CLI wrapper around pnpm why --json",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.34.1",
+  "dependencies": {
+    "yargs": "17.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "20.11.0",
+    "@types/yargs": "17.0.32",
+    "typescript": "6.0.3",
+    "vitest": "4.1.8"
+  },
+  "bin": {
+    "analyze-deps": "./bin/analyze-deps"
+  }
+}
